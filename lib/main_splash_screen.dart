@@ -14,10 +14,14 @@ class _MainSplashScreenState extends State<MainSplashScreen> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: SplashScreen(seconds: 5, title: Text("Ace Group"), 
-        loaderColor: Colors.red, navigateAfterSeconds: MyHomePage(), 
-        backgroundColor: Colors.amberAccent, 
-        image: Image(image: AssetImage('assets/i1.png')),
+        body: SplashScreen(
+          seconds: 5,
+          title: Text("Ace Group"),
+          loaderColor: Colors.red,
+          navigateAfterSeconds: MyHomePage(),
+          backgroundColor: Colors.amberAccent,
+          image: Image(image: AssetImage('assets/i1.png')),
+        ),
       ),
     );
   }
