@@ -5,7 +5,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 
 import 'main_splash_screen.dart';
 
-void main() => runApp(MainSplashScreen());
+void main() => runApp(PView());
 ThemeMode tm = ThemeMode.light;
 bool swVal = false;
 
