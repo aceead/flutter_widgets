@@ -3,12 +3,12 @@ import 'package:splashscreen/splashscreen.dart';
 
 import 'main.dart';
 
-class MainSplashScreen extends StatefulWidget {
+class PView extends StatefulWidget {
   @override
-  _MainSplashScreenState createState() => new _MainSplashScreenState();
+  _PViewState createState() => new _PViewState();
 }
 
-class _MainSplashScreenState extends State<MainSplashScreen> {
+class _PViewState extends State<PView> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,12 +17,8 @@ class _MainSplashScreenState extends State<MainSplashScreen> {
         body: SplashScreen(
           seconds: 5,
           title: Text("Ace Group"),
-          loaderColor: Colors.greenAccent,
+          loaderColor: Colors.amber,
           navigateAfterSeconds: MyHomePage(),
-          backgroundColor: Colors.blueAccent,
-          image: Image(image: AssetImage('assets/i1.png')),
-          photoSize: 150,
-          loadingText: Text("Welcome to Ace Group"),
         ),
       ),
     );
