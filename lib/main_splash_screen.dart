@@ -8,7 +8,7 @@ class MainSplashScreen extends StatefulWidget {
   _MainSplashScreenState createState() => new _MainSplashScreenState();
 }
 
-class _MainSplashScreenState extends State<SplashScreen> {
+class _MainSplashScreenState extends State<MainSplashScreen> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
