@@ -3,7 +3,7 @@ import 'package:toast/toast.dart';
 import 'package:flushbar/flushbar.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 
-import 'main_splash_screen.dart';
+import 'p_view.dart';
 
 void main() => runApp(PView());
 ThemeMode tm = ThemeMode.light;
