@@ -21,6 +21,7 @@ class _MainSplashScreenState extends State<MainSplashScreen> {
           navigateAfterSeconds: MyHomePage(),
           backgroundColor: Colors.amberAccent,
           image: Image(image: AssetImage('assets/i1.png')),
+          photoSize: 180,
         ),
       ),
     );
