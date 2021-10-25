@@ -17,7 +17,7 @@ class _MainSplashScreenState extends State<MainSplashScreen> {
         body: SplashScreen(
           seconds: 5,
           title: Text("Ace Group"),
-          loaderColor: Colors.red,
+          loaderColor: Colors.greenAccent,
           navigateAfterSeconds: MyHomePage(),
           backgroundColor: Colors.blueAccent,
           image: Image(image: AssetImage('assets/i1.png')),
