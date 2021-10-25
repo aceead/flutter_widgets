@@ -22,6 +22,7 @@ class _MainSplashScreenState extends State<MainSplashScreen> {
           backgroundColor: Colors.blueAccent,
           image: Image(image: AssetImage('assets/i1.png')),
           photoSize: 150,
+          loadingText: Text("Welcome to Ace Group"),
         ),
       ),
     );
